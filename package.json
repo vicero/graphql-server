@@ -1,0 +1,21 @@
+{
+  "name": "hischool-ql",
+  "version": "1.0.0",
+  "description": "GraphQL API for high school grades that is possibly insecure",
+  "main": "index.js",
+  "repository": "git@github.com:vicero/hischool-ql.git",
+  "author": "James Kessler <james.kessler@forallsecure.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "graphql-http": "^1.9.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon --watch src src/server.js"
+  }
+}
